@@ -3,7 +3,7 @@
  $name=$_POST["name"];
  $from=$_POST["email"];
  $msg=$_POST["message"];
- $receiver="andrey@izee.ro";
+ $receiver="emily.c.ritter@gmail.com";
  $subject="Contact MyWALL";
 
 $message = "
