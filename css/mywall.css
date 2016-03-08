@@ -1,41 +1,4 @@
-/*!
- *
- * MyWALL v1.0
- *
- */
 
-/*
-----------------------------------
-
-Name: mywall.css
-Version: v1.0
-
-----------------------------------
-
-Table of Contents
-
-1  -  Header
-2  -  Global Menu Navigation
-3  -  Header Navigation
-4  -  Header content details 
-5  -  About Me -- Xtype text -- "Hi. I'am ..."
-6  -  About Me and Skills
-7  -  Education
-8  -  Work Experience 
-9  -  Portfolio
-10 -  Social Networks and Download Resume
-11 -  Contact me
-12 -  Footer
-13 -  Owl Carousel
-14 -  Media Querys - Responsive
-
-*/
-
-/* ----------------------------------
-
-1 - Header
-
----------------------------------- */
 body {
   font-family: 'Roboto',Helvetica,Arial,sans-serif !important;
 }
@@ -45,7 +8,7 @@ header {
   bottom: 0;
   right: 0;
   left: 0;
-  background: url('../img/bg_head.png') no-repeat center center;
+  background: url('../img/mars.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -100,7 +63,7 @@ nav.left-nav {
 }
 .ha-header.ha-header-subshow a.dropdown-toggle.circle-main{
   text-decoration: none;
-  background-color: #2D3848;
+  background-color: rgba(32, 38, 72, 0.3);
   border-color: rgba(255, 255, 255, 0.3);
   -moz-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
@@ -110,18 +73,18 @@ nav.left-nav {
 }
 .ha-header.ha-header-subshow a.dropdown-toggle.circle-main:hover, .ha-header.ha-header-subshow  a.dropdown-toggle.circle-main:focus {
   text-decoration: none;
-  background-color: #2D3848;
-  border-color: #2D3848;
+  background-color: #023BB2;
+  border-color: #023BB2;
 }
 .icon-up {
   width: 40px;
-  background-color: #EC0856;
+  background-color: #FF5535;
   height: 4px;
 }
 .icon-med {
   width: 40px;
   margin-top: 6px;
-  background-color: #EC0856;
+  background-color: #FF5535;
   height: 4px;
 }
 .hello {
@@ -158,7 +121,7 @@ nav.left-nav {
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
   color: #FFFFFF;
   text-decoration: none;
-  background-color: #EC0856;
+  background-color: #FF5535;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -166,7 +129,7 @@ nav.left-nav {
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:before {
   color: #FFFFFF;
   text-decoration: none;
-  background-color: #EC0856;
+  background-color: #FF5535;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -300,7 +263,7 @@ a.callme:focus, .callme:active {
 }
 /* Button Hire me now */
 .button-mywall {
-  background: #EC0856;
+  background: #202648;
   color: #FFF;
   border-radius: 50px;
   font-weight: 400;
@@ -310,7 +273,7 @@ a.callme:focus, .callme:active {
   padding-left: 25px;
   line-height: 58px;
   margin-bottom: 10px;
-  border: 2px solid #EC0856;
+  border: 2px solid #202648;
   text-align: center;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -319,7 +282,7 @@ a.callme:focus, .callme:active {
 }
 .button-mywall:hover, .button-mywall:active{
   color: #FFFFFF;
-  background: #202648;
+  background: #FF5535;
   border-color: rgba(255, 255, 255, 0.3);
 }
 .button-mywall:focus {
@@ -328,7 +291,7 @@ a.callme:focus, .callme:active {
 
 /* ----------------------------------
 
-4 - Header content details 
+4 - Header content details
 
 ------------------------------------- */
 h1.name-boss {
@@ -343,7 +306,7 @@ h1.name-boss {
 h2.main-details {
   font-size: 50px;
   color: #fff;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center;
   text-shadow: 0 2px rgba(0, 0, 0, 0.2);
 }
@@ -366,9 +329,9 @@ p.extend-details {
 
 -------------------------------- */
 .cd-intro {
-  padding-top: 140px;
-  padding-bottom: 140px;
-  background-color: #EC0856;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #07193D;
   text-align: center;
   color: #fff;
   margin-bottom: 50px;
@@ -581,13 +544,13 @@ p.extend-details {
 }
 /* -----      COLORS SKILLS     ------*/
 .my-red {
-  background-color: #F53440;
+  background-color: #FD5308;
 }
 .my-blue {
-  background-color: rgb(9, 137, 231);
+  background-color: rgb(28, 102, 255);
 }
 .my-pink {
-  background-color: rgb(236, 8, 86);
+  background-color: rgb(253, 83, 8);
 }
 .my-aqua {
   background-color: #00ADC8;
@@ -650,13 +613,13 @@ p.extend-details {
 }
 /* ----  Colors  ---- */
 .color-a {
-  color: #580183;
+  color: #1C66FF;
 }
 .color-b {
-  color: #0977C7;
+  color: #FF5535;
 }
 .color-c {
-  color: #580183;
+  color: #1C66FF;
 }
 
 /* Software Abilities */
@@ -675,7 +638,7 @@ p.extend-details {
   font-size: 20px;
   padding-bottom: 18px;
   padding-top: 11px;
-  color: #EC0856;
+  color: #FF5535;
 }
 .advanced {
   font-size: 20px;
@@ -899,7 +862,7 @@ p.extend-details {
 .cd-timeline-content {
   position: relative;
   margin-left: 140px;
-  background: rgb(34, 41, 48);
+  background: rgb(7, 25, 64);
   border-radius: 5px;
   padding: 1em;
 }
@@ -945,7 +908,7 @@ p.extend-details {
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid rgb(34, 41, 48);
+  border-right: 7px solid rgb(7, 25, 64);
 }
 .cd-date {
   font-style: italic;
@@ -993,7 +956,7 @@ p.extend-details {
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: rgb(34, 41, 48);
+    border-left-color: rgb(7, 25, 64);
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -1016,7 +979,7 @@ p.extend-details {
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: rgb(34, 41, 48);
+    border-right-color: rgb(7, 25, 64);
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
@@ -1174,7 +1137,7 @@ p.extend-details {
 
 /* -----------------------------------
 
-8 - Work Experience 
+8 - Work Experience
 
 ------------------------------------- */
 .bg-work {
@@ -1206,8 +1169,8 @@ p.extend-details {
   text-align: center;
 }
 .nav-tabs>li>a:hover {
-  border-color: #EC0856;
-  color: #EC0856;
+  border-color: #FF5535;
+  color: #FF5535;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -1222,8 +1185,8 @@ p.extend-details {
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
   color: #FFF;
   cursor: default;
-  background-color: #EC0856;
-  border: 2px solid #EC0856;
+  background-color: #FF5535;
+  border: 2px solid #FF5535;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -1234,7 +1197,7 @@ p.extend-details {
 .title-wk {
   text-align: center;
   font-size: 34px;
-  color: #FF2A73;
+  color: #88CC02;
   font-weight: 300;
   padding-top: 20px;
 }
@@ -1294,8 +1257,8 @@ p.extend-details {
   margin-right: 5px;
 }
 .btn-pf:hover, .btn-pf:active, .btn-pf.is-checked {
-  color: #282D30;
-  border: 2px solid #F53440;
+  color: #0E337F;
+  border: 2px solid #FD5308;
   cursor: pointer;
   outline:none;
 }
@@ -1318,7 +1281,7 @@ p.extend-details {
 .jprt-item {
   position: absolute;
   text-align: center;
-  
+
   -webkit-transition: width 1s ease, top 1s ease, left 1s ease, opacity 0.5s ease;
     -moz-transition:  width 1s ease, top 1s ease, left 1s ease, opacity 0.5s ease;
     -o-transition:  width 1s ease, top 1s ease, left 1s ease, opacity 0.5s ease;
@@ -1336,7 +1299,7 @@ p.extend-details {
   top: 0;
   left: 0;
   overflow-y: hidden;
-  
+
   -webkit-transition: height 1s ease, top 1s ease, left 1s ease, opacity 0.5s ease;
     -moz-transition:  height 1s ease, top 1s ease, left 1s ease, opacity 0.5s ease;
     -o-transition:  height 1s ease, top 1s ease, left 1s ease, opacity 0.5s ease;
@@ -1350,12 +1313,12 @@ p.extend-details {
 
 .jprt-hover {
   position: absolute;
-  
+
   opacity: 0;
   width: 100%;
   top: 0;
   left: 0;
-  
+
   -webkit-transition: width 1s ease, top 1s ease, left 1s ease, opacity 0.25s ease;
     -moz-transition:  width 1s ease, top 1s ease, left 1s ease, opacity 0.25s ease;
     -o-transition:  width 1s ease, top 1s ease, left 1s ease, opacity 0.25s ease;
@@ -1529,20 +1492,20 @@ h1.jprt-item-title {
   outline-style: none;
 }
 .jprt-buttons .jprt-btn:hover {
-  color: #282D30;
-  border: 2px solid #F53440;
+  color: #0E337F;
+  border: 2px solid #FD5308;
   cursor: pointer;
   outline: none;
 }
 .jprt-buttons .jprt-btn.jprt-btn-active {
-  color: #282D30;
-  border: 2px solid #F53440;
+  color: #0E337F;
+  border: 2px solid #FD5308;
   cursor: pointer;
   outline: none;
 }
 .jprt-buttons .jprt-btn.jprt-btn-active:hover {
-  color: #282D30;
-  border: 2px solid #F53440;
+  color: #0E337F;
+  border: 2px solid #FD5308;
   cursor: pointer;
   outline: none;
 }
@@ -1585,7 +1548,7 @@ h1.jprt-item-title {
   background: rgba(0,0,0,0.2);
   color: #fff;
 }
-.jprt-item-title { 
+.jprt-item-title {
   background: rgba(0,0,0,0.2);
   color: #fff;
 }
@@ -1923,7 +1886,7 @@ h1.jprt-item-title {
 
 .full-download {
   margin-top: 100px;
-  background-color: #EC0856;
+  background-color: #061637;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -1934,7 +1897,7 @@ h1.jprt-item-title {
   border-radius: 50px;
   font-size: 30px;
   margin-top: 13px;
-  color: #1B1C3E;
+  color: #061637;
   font-weight: 300;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     -webkit-transition: all 0.3s;
@@ -1942,7 +1905,7 @@ h1.jprt-item-title {
   transition: all 0.3s;
 }
 .btn-dwnld:hover, .btn-dwnld:focus {
-  background-color: #2D373D;
+  background-color: #0e3481;
   color: #FFFFFF;
 }
 .social-ink {
@@ -1957,7 +1920,7 @@ h1.jprt-item-title {
 .social-ink:hover {
   float: left;
   padding: 20px;
-  background-color: #2D373D;
+  background-color: #0e3481;
   border-radius: 50%;
   border: 2px solid rgba(44, 49, 58, 1);
   margin-left: 10px;
@@ -1973,7 +1936,7 @@ h1.jprt-item-title {
 ------------------------------------- */
 
 .bg-contact {
-  background: url('../img/bg_contact.png') no-repeat center center;
+  background: url('../img/desert.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1996,7 +1959,7 @@ h1.jprt-item-title {
   text-align: center;
 }
 .separator-ct {
-  border-bottom: 3px solid #EC0856;
+  border-bottom: 3px solid #061637;
   width: 200px;
   margin-top: 0px;
   margin-right: auto;
@@ -2039,7 +2002,7 @@ h1.jprt-item-title {
   background-color: rgba(0, 0, 0, 0.36);
   background-image: none;
   border: none;
-  border-bottom: 3px solid #1087EA;
+  border-bottom: 3px solid #061637;
   border-radius: 0px;
 }
 .form-control:focus{
@@ -2078,7 +2041,7 @@ h1.jprt-item-title {
   margin-left: auto;
   font-size: 25px;
   color: #fff;
-  background-color: #1087EA;
+  background-color: #061637;
   border-radius: 50px;
   padding: 15px 20px;
   display: block;
@@ -2094,7 +2057,7 @@ h1.jprt-item-title {
   margin-bottom: 0px;
   margin-left: auto;
   font-size: 25px;
-  color: #1087EA;
+  color: #061637;
   background-color: #FFFFFF;
   border-radius: 50px;
   padding: 15px 20px;
@@ -2104,7 +2067,7 @@ h1.jprt-item-title {
 #successmsg {
     text-align: center;
     color: #FFFFFF;
-    background-color: #EC0856;
+    background-color: #FF5535;
     font-size: 20px;
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -2128,8 +2091,8 @@ h1.jprt-item-title {
     padding: 50px;
 }
 .full-footer {
-  background-color: #0E0D1C;
-  color: rgba(255, 255, 255, 0.49);
+  background-color: #061637;
+  color: #1C66FF;
 }
 .foo-right {
   font-size: 17px;
@@ -2145,7 +2108,7 @@ h1.jprt-item-title {
 13 - Owl Carousel
 
 ------------------------------------- */
-/* 
+/*
  *  Owl Carousel - Animate Plugin
  */
 .owl-carousel .animated {
@@ -2184,7 +2147,7 @@ h1.jprt-item-title {
   }
 }
 
-/* 
+/*
  *  Owl Carousel - Auto Height Plugin
  */
 .owl-height {
@@ -2195,7 +2158,7 @@ h1.jprt-item-title {
   transition: height 500ms ease-in-out;
 }
 
-/* 
+/*
  *  Core Owl Carousel CSS File
  */
 .owl-carousel {
@@ -2290,7 +2253,7 @@ h1.jprt-item-title {
   display: block;
 }
 
-/* 
+/*
  *  Owl Carousel - Lazy Load Plugin
  */
 .owl-carousel .owl-item .owl-lazy {
@@ -2305,7 +2268,7 @@ h1.jprt-item-title {
   transform-style: preserve-3d;
 }
 
-/* 
+/*
  *  Owl Carousel - Video Plugin
  */
 .owl-carousel .owl-video-wrapper {
@@ -2451,7 +2414,7 @@ h1.jprt-item-title {
     font-size: 18px;
     padding-bottom: 18px;
     padding-top: 14px;
-  } 
+  }
 }
 /******* Media for max 992px *******/
 @media (max-width: 992px){
@@ -2630,7 +2593,7 @@ h1.jprt-item-title {
     font-size: 20px;
     margin-top: 5px;
     font-weight: 300;
-  }  
+  }
 }
 /******* Media for min 768px *******/
 @media (min-width: 768px){
