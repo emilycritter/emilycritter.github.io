@@ -1,5 +1,5 @@
-<?php 
-  
+<?php
+
  $name=$_POST["name"];
  $from=$_POST["email"];
  $msg=$_POST["message"];
@@ -14,7 +14,7 @@ $message = "
 <body>
 <table width='50%' border='0' align='center' cellpadding='0' cellspacing='0'>
   <tr>
-    <td colspan='2' align='center' valign='top'><img src='http://www.izee.ro/img/izee.png'></td>
+    <td colspan='2' align='center' valign='top'><img src='http://www.emilycritter.com/img/ritter.png'></td>
   </tr>
   <tr>
     <td width='50%' align='right'>&nbsp;</td>
@@ -45,7 +45,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <'.$from.'>' . "\r\n";
 
 
-   if(mail($receiver,$subject,$message,$headers))  
+   if(mail($receiver,$subject,$message,$headers))
    {
       echo "<p class='pad'>The message has been sent!</p>";
    }
