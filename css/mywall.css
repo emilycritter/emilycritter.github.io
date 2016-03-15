@@ -152,7 +152,8 @@ nav.left-nav {
   padding-bottom: 12px;
   padding-left: 14px;
   height: 62px;
-  color: rgba(255, 255, 255, 0.47);
+  color: #FFFFFF;
+  text-decoration: none;
   text-align: center;
   z-index: 2;
   border-style: solid;
@@ -263,8 +264,8 @@ a.callme:focus, .callme:active {
 }
 /* Button Hire me now */
 .button-mywall {
-  background: #202648;
-  color: #FFF;
+  background: rgba(0, 0, 0, 0);
+  color: #FFFFFF;
   border-radius: 50px;
   font-weight: 400;
   font-size: 22px;
@@ -274,6 +275,7 @@ a.callme:focus, .callme:active {
   line-height: 58px;
   margin-bottom: 10px;
   border: 2px solid #202648;
+  border-color: rgba(255, 255, 255, 0.47);
   text-align: center;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -282,7 +284,7 @@ a.callme:focus, .callme:active {
 }
 .button-mywall:hover, .button-mywall:active{
   color: #FFFFFF;
-  background: #FF5535;
+  background: #202648;
   border-color: rgba(255, 255, 255, 0.3);
 }
 .button-mywall:focus {

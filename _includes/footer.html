@@ -1,0 +1,24 @@
+<footer class="full-footer">
+  <div class="container padding-footer">
+    <div class="row">
+      <div class="col-sm-8 foo-left">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+      <div class="col-sm-4 foo-right">
+        &copy; Emily Cox Ritter
+      </div>
+    </div>
+  </div>
+</footer>
