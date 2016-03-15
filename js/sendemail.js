@@ -27,7 +27,7 @@
                 if(validateForm()){
                  e.preventDefault();
                   $.ajax({type: "POST",
-                          url: "http://emilycritter.com/envato/mywall/one/send-email.php",
+                          url: "http://emilycritter.com/send-email.php",
                           data:$("#ContactForm").serialize(),
                           success:function(result){
                           $("#successmsg").html(result);
